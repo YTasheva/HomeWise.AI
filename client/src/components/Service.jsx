@@ -34,7 +34,7 @@ home accessibility with the HomeWise App or conveniently set the mood with conte
                         <div className="card-body w-2/3">
                             <h2 className="card-title font-bold">Seamless Sophistication</h2>
                             <p className="text-xl text-gray-600">
-                            We believe privacy is nonnegotiable in the home, and Josh has been engineered to protect your data and earn your trust. We are excited to share
+                            We believe privacy is nonnegotiable in the home, and HomeWise has been engineered to protect your data and earn your trust. We are excited to share
                             the vision and introduce you to HomeWise!
                             </p>
                             <div className="card-actions justify-start mt-auto">

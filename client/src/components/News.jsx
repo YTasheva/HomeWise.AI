@@ -1,4 +1,3 @@
-
 import React from 'react'
 import {ChatBubbleLeftRightIcon} from '@heroicons/react/24/solid'
 
@@ -76,7 +75,7 @@ export default function News() {
     <h2 className="card-title font-medium">GENERATIVE AI PLATFORM</h2>
     <h2 className="card-title text-sm font-medium">Admin <ChatBubbleLeftRightIcon className="h-6 w-6 text-[#00C0E4] group-hover:text-white"/> 15 </h2>
     <p className="text-lg text-gray-500 group-hover:text-white">
-    All HomeWise.ai users are now able to enjoy custom integration capabilities along with a “generative assistant” to help answer questions across any topic. No matter what language structure a client uses, homeWise.ai will initiate the customer’s customized preset..
+    All HomeWise.ai users are now able to enjoy custom integration capabilities along with a “generative assistant” to help answer questions across any topic. No matter what language structure a client uses, HomeWise.ai will initiate the customer’s customized preset..
     </p>
     <div className='absolute top-0 left-0 flex flex-col bg-black text-white h-14 w-12 text-center group-hover:bg-[#00C0E4] group-hover:text-white'>
         <p>21</p>
