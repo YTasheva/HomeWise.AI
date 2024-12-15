@@ -23,7 +23,7 @@ HomeWise is a voice-driven home assistant that leverages AI technologies to deli
 - [Realtime API](#realtime-api)
 
 - [Contributing](#contributing)
-- [Licence](#licence)
+- [License](#license)
 - [Authors](#authors)
 
 ## Features
