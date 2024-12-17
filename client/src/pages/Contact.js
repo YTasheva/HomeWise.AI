@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import Hero from '../components/Hero';
-import { Container, Row, Col } from 'react-bootstrap';
+import React, { useState } from "react";
+import Hero from "../components/Hero";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
   const handleOnChange = (e) => {
@@ -18,14 +18,14 @@ const Contact = () => {
     console.log(`name is ${formData.name}`);
     console.log(`email is ${formData.email}`);
     console.log(`message is ${formData.message}`);
-    setFormData({ name: '', email: '', message: '' });
+    setFormData({ name: "", email: "", message: "" });
   };
 
   return (
     <>
       <Hero
         className="w-10"
-        backgroundImage="https://raw.githubusercontent.com/YTasheva/Food-Wise/main/client/public/contactus.jpeg"
+        backgroundImage="https://raw.githubusercontent.com/Peter-Palacios/HomeWise/main/client/public/contactus.jpeg"
       />
       <hr />
       <div className="text-center mt-3 h4 font-weight-bold">
@@ -72,17 +72,15 @@ const Contact = () => {
                 onChange={handleOnChange}
               />
               <div id="emailHelp" className="form-text text-dark m-4">
-              HomeWise is artificially intelligent, but when you reach out you’ll hear from real humans. Promise.
+                HomeWise is artificially intelligent, but when you reach out
+                you’ll hear from real humans. Promise.
               </div>
             </Col>
           </Row>
           <Row className="mb-3">
             <Col size="12">
               <label htmlFor="Message" className="form-label">
-                <i
-                  className="bi bi-chat-quote-fill m-2"
-                  aria-hidden="true"
-                ></i>
+                <i className="bi bi-chat-quote-fill m-2" aria-hidden="true"></i>
                 Your Message
               </label>
               <textarea
@@ -105,7 +103,10 @@ const Contact = () => {
         </Container>
         <Container className="text-center text-body mt-5 mb-5 font-weight-bold">
           <h3>GET HOMEWISE {formData.name}!</h3>
-          <p>We’re here to help if you need anything. Except if you need to balance your bank account. That’s all you.</p>
+          <p>
+            We’re here to help if you need anything. Except if you need to
+            balance your bank account. That’s all you.
+          </p>
         </Container>
       </form>
     </>
