@@ -6,44 +6,42 @@ export default function Navbar() {
     <div className="navbar bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div tabIndex={0} role="button" className="btn btn-ghost  ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-10 w-10"
+              className="h-5 w-5"
               fill="none"
-              viewBox="0 0 2500 2500"
-              width="2500" 
-              height="2500"
+              viewBox="0 0 24 24"
               stroke="currentColor"
             >
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M100 100L50 0L150 0L100 100Z" fill ="#008000"
+                d="M4 6h16M4 12h8m-8 6h16"
               />
             </svg>
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 btn rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <Link to="/item1">Item 1</Link>
             </li>
             <li>
-              <a>Parent</a>
+              <Link to="/parent">Parent</Link>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <Link to="/submenu1">Submenu 1</Link>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <Link to="/submenu2">Submenu 2</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a>Item 3</a>
+              <Link to="/item3">Item 3</Link>
             </li>
           </ul>
         </div>
@@ -58,7 +56,9 @@ export default function Navbar() {
           </li>
           <li>
             <details>
-              <summary className="text-lg font-medium">HomeWise Assistant</summary>
+              <summary className="text-lg font-medium">
+                HomeWise Assistant
+              </summary>
               <ul className="p-2">
                 <li>
                   <Link to="/upload">Voice Assistant</Link>
@@ -70,42 +70,47 @@ export default function Navbar() {
             </details>
           </li>
           <li>
-            <a className="text-lg font-medium">Business Solutions</a>
+            <Link to="/business-solutions" className="text-lg font-medium">Business Solutions</Link>
           </li>
           <li>
             <details>
               <summary className="text-lg font-medium">Products</summary>
               <ul className="p-2">
                 <li>
-                  <a> HomeWise App</a>
+                  <Link to="/homewise-app"> HomeWise App</Link>
                 </li>
                 <li>
-                  <a>HomeWise Touchscreen</a>
+                  <Link to="/homewise-touchscreen">HomeWise Touchscreen</Link>
                 </li>
               </ul>
             </details>
           </li>
-          <li className="nav-item">
-            <Link
-              to="/contact"
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-            >
-              <summary className="text-lg font-medium">Contact Us</summary>
-            </Link>
-            <ul className="p-2">
-              <li>
-                <a>Get HomeWise</a>
-              </li>
-              <li>
-                <a>Support</a>
-              </li>
-            </ul>
+          <li>
+            <details>
+              <summary className="nav-item">
+                <span className="text-lg font-medium">Contact Us</span>
+              </summary>
+              <ul className="p-2">
+                <li>
+                  <Link
+                    to="/contact"
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
+                  >
+                    Contact Us
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/get-homewise">Get HomeWise</Link>
+                </li>
+                <li>
+                  <Link to="/support">Support</Link>
+                </li>
+              </ul>
+            </details>
           </li>
         </ul>
-      </div>
-      <div className="navbar-end">
         <Link to="/upload" className="btn bg-yellow text-white rounded-none">
           GET A QUOTE
         </Link>
