@@ -119,4 +119,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 > [HomeWise.com](#) &nbsp;&middot;&nbsp;
 > Email [support@homewise.com](#) &nbsp;&middot;&nbsp;
 
-**Thank you for using and contributing to the HomeWise website! Your support helps us continually improve and deliver the best shipping management experience.**
+**Thank you for using and contributing to the HomeWise website! Your support helps us continually improve and deliver the best voice assistance experience.**
