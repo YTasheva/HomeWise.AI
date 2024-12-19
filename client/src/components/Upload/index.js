@@ -63,11 +63,11 @@ const Upload = () => {
             />
           </svg>
           <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-            <span className="font-semibold">Click to upload</span> or
+            <span className="font-semibold">Click to chat with HomeWise</span> or
             drag and drop
           </p>
           <p className="text-xs text-gray-500 dark:text-gray-400">
-            SVG, PNG, JPG or GIF (MAX. 800x400px)
+            MP3, WAVE,(MAX. 800x400px)
           </p>
         </div>
         <input
@@ -91,7 +91,7 @@ const Upload = () => {
       {error && <div style={{ color: 'red' }}>{error}</div>}
       {analysisResult && (
         <div>
-          <h3>Analysis Result</h3>
+          <h3>Analyse Result</h3>
           <pre>{JSON.stringify(analysisResult, null, 2)}</pre>
         </div>
       )}
