@@ -45,7 +45,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <img className="h-12 w-auto px-10" src="/logo.png" alt="logo" />
+        <img className="h-16 w-auto px-10" src="/logo.png" alt="logo" />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -68,7 +68,9 @@ export default function Navbar() {
             </details>
           </li>
           <li>
-            <Link to="business-solutions" className="text-lg font-medium">Business Solutions</Link>
+            <Link to="business-solutions" className="text-lg font-medium">
+              Business Solutions
+            </Link>
           </li>
           <li>
             <details>
@@ -84,19 +86,13 @@ export default function Navbar() {
             </details>
           </li>
           <li>
-            
-               
-                  <Link
-                    to="/contact"
-                    className="text-lg font-medium"
-                  >
-                    Contact Us
-                  </Link>
-                </li>
-              </ul>
-                </div>
-        
-            <div className="navbar-end">
+            <Link to="/contact" className="text-lg font-medium">
+              Contact Us
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <div className="navbar-end">
         <Link to="/upload" className="btn bg-yellow text-white rounded-none">
           GET A QUOTE
         </Link>
