@@ -13,7 +13,7 @@ export default function ChooseUs() {
       <h1 className="text-xl text-gray-500 font-semibold mb-10">
         THE NEXT ERA OF INTELLIGENT LIVING
       </h1>
-      <div className="join join-vertical w-full">
+      <div className="flex flex-col w-full">
         {[
           {
             title: "Live smarter—HomeWise takes care of the little things in life so you can focus on what is important.",
@@ -32,15 +32,18 @@ export default function ChooseUs() {
             content: "Streamline your daily routines with smart automation tailored to your lifestyle."
           }
         ].map((item, index) => (
-          <div key={index} className="collapse collapse-plus join-item border border-base-300">
+          <div key={index} className="border border-base-300 mb-2">
             <div
-              className="collapse-title text-xl font-medium cursor-pointer"
+              className="text-xl font-medium cursor-pointer p-4 bg-gray-100 flex justify-between items-center"
               onClick={() => toggleAccordion(index)}
             >
               {item.title}
+              <span className="collapse-plus">
+                {openIndex === index ? "-" : "+"}
+              </span>
             </div>
             {openIndex === index && (
-              <div className="collapse-content">
+              <div className="p-4">
                 <p>{item.content}</p>
               </div>
             )}
