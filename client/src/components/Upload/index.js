@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
+
 const Upload = () => {
   const [selectedFile, setSelectedFile] = useState(null);
   const [fileName, setFileName] = useState('');
@@ -63,11 +64,10 @@ const Upload = () => {
             />
           </svg>
           <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-            <span className="font-semibold">Click to chat with HomeWise</span> or
-            drag and drop
+            <span className="font-semibold">Chat with HomeWise</span> 
           </p>
           <p className="text-xs text-gray-500 dark:text-gray-400">
-            MP3, WAVE,(MAX. 800x400px)
+            MP3, .WAVE
           </p>
         </div>
         <input
@@ -85,7 +85,7 @@ const Upload = () => {
           className="submit btn bg-yellow text-white rounded-lg border-none"
           type="submit"
         >
-          Analyze
+         Chat 
         </button>
       </form>
       {error && <div style={{ color: 'red' }}>{error}</div>}
