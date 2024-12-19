@@ -1,17 +1,16 @@
-import React, { useState } from 'react';
-import axios from 'axios';
-
+import React, { useState } from "react";
+import axios from "axios";
 
 const Upload = () => {
   const [selectedFile, setSelectedFile] = useState(null);
-  const [fileName, setFileName] = useState('');
+  const [fileName, setFileName] = useState("");
   const [analysisResult, setAnalysisResult] = useState(null);
   const [error, setError] = useState(null);
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     setSelectedFile(file);
-    setFileName(file ? file.name : '');
+    setFileName(file ? file.name : "");
   };
 
   const handleSubmit = async (event) => {
@@ -21,23 +20,21 @@ const Upload = () => {
     }
 
     const formData = new FormData();
-    formData.append('document', selectedFile);
+    formData.append("document", selectedFile);
 
     try {
       const response = await axios.post(
-        'http://localhost:8000/api/analyze-document/',
+        "http://localhost:8000/api/analyze-document/",
         formData,
         {
           headers: {
-            'Content-Type': 'multipart/form-data',
+            "Content-Type": "multipart/form-data",
           },
         }
       );
       setAnalysisResult(response.data);
     } catch (err) {
-      setError(
-        err.response ? err.response.data : 'Error uploading file'
-      );
+      setError(err.response ? err.response.data : "Error uploading file");
     }
   };
 
@@ -64,11 +61,9 @@ const Upload = () => {
             />
           </svg>
           <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-            <span className="font-semibold">Chat with HomeWise</span> 
+            <span className="font-semibold">Chat with HomeWise</span>
           </p>
-          <p className="text-xs text-gray-500 dark:text-gray-400">
-            MP3, .WAVE
-          </p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">MP3, .WAVE</p>
         </div>
         <input
           type="file"
@@ -77,18 +72,16 @@ const Upload = () => {
           onChange={handleFileChange}
         />
       </label>
-      {fileName && (
-        <p className="mt-2 text-red-500 font-bold">{fileName}</p>
-      )}
+      {fileName && <p className="mt-2 text-red-500 font-bold">{fileName}</p>}
       <form onSubmit={handleSubmit} className="mt-4">
         <button
           className="submit btn bg-yellow text-white rounded-lg border-none"
           type="submit"
         >
-         Chat 
+          Chat
         </button>
       </form>
-      {error && <div style={{ color: 'red' }}>{error}</div>}
+      {error && <div style={{ color: "red" }}>{error}</div>}
       {analysisResult && (
         <div>
           <h3>Analyse Result</h3>

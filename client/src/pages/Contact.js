@@ -103,7 +103,7 @@ const Contact = () => {
         </Container>
         <Container className="text-center text-body mt-5 mb-5 font-weight-bold">
           <h3>GET HOMEWISE {formData.name}!</h3>
-          <p>
+          <p className="mt-3">
             We’re here to help if you need anything. Except if you need to
             balance your bank account. That’s all you.
           </p>
