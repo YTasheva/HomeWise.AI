@@ -113,7 +113,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Authors
 
-- GitHub - [Peter Palacios](https://github.com/Peter-Palacios) | [Yuliya Tasheva](https://github.com/YTasheva) 
+- GitHub - [Peter Palacios](https://github.com/Peter-Palacios) - Back-End | [Yuliya Tasheva](https://github.com/YTasheva) - Front-End
 - For any questions, suggestions, or issues, please contact our team at 
 
 > [HomeWise.com](#) &nbsp;&middot;&nbsp;
