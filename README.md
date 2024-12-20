@@ -42,7 +42,9 @@ HomeWise.AI is a voice-driven home assistant that leverages AI technologies to d
 
 ## Screenshot
 
-![](https://github.com/YTasheva/HomeWise.AI/blob)
+![](https://github.com/YTasheva/HomeWise.AI/blob/main/client/public/Screenshot%203.jpg)
+![](https://github.com/YTasheva/HomeWise.AI/blob/main/client/public/Screenshot%202.jpg)
+![](https://github.com/YTasheva/HomeWise.AI/blob/main/client/public/Screenshot%201.jpg)
 
 ## VoiceRAG Diagram
 
@@ -51,8 +53,8 @@ HomeWise.AI is a voice-driven home assistant that leverages AI technologies to d
 ## Links
 
 - [Deployed Application](https://YTasheva.github.io/HomeWise/)
-- [GitHub Repo](https://github.com/YTasheva/HomeWise)
-- [HomeWise.AI Presentation Slides](https://docs.google.com/presentation/d/.../edit?usp=sharing)
+- [GitHub Repo](https://github.com/YTasheva/HomeWise.AI)
+- [HomeWise.AI Presentation Slides](https://docs.google.com/presentation/d/1nuBYDpa7i1gAqU1NuCTb55L4N-FjqCu3vXbzwmUYQBs/edit?usp=sharing)
 
 ## Technologies
 
@@ -136,11 +138,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Authors
 
-- GitHub - [Peter Palacios](https://github.com/Peter-Palacios) - Back-End | [Yuliya Tasheva](https://github.com/YTasheva) - Front-End
+ [Yuliya Tasheva](https://github.com/YTasheva) - Front-End
 - For any questions, suggestions, or issues, please contact our team at 
 
-> [HomeWise.com](#) &nbsp;&middot;&nbsp;
-> Email [support@homewise.com](#) &nbsp;&middot;&nbsp;
+> [HomeWise.AI.com](#) &nbsp;&middot;&nbsp;
+> Email [support@homewise.ai.com](#) &nbsp;&middot;&nbsp;
 > Copyright &copy; 2024 All Rights Reserved. Site By Yuliya Tasheva&reg;
 
 **Thank you for using and contributing to the HomeWise website! Your support helps us continually improve and deliver the best voice assistance experience.**
