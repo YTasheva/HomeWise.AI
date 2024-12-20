@@ -1,39 +1,52 @@
 <h1 align="center">HomeWise Voice Assistant</h1>
-  <br>
+  <br />
   <a href="https://github.com/Peter-Palacios">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=for-the-badge" alt=""></a>
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=for-the-badge" alt="">
+  </a>
   <a href="https://github.com/Peter-Palacios/HomeWise/graphs/contributors">
-      <img src="https://img.shields.io/github/contributors/Peter-Palacios/HomeWise.svg?style=for-the-badge" alt=""></a>
+      <img src="https://img.shields.io/github/contributors/Peter-Palacios/HomeWise.svg?style=for-the-badge" alt="">
+  </a>
   <a href="https://github.com/Peter-Palacios/HomeWise/issues">
-      <img src="https://img.shields.io/github/issues/Peter-Palacios/HomeWise.svg?style=for-the-badge" alt=""></a>
+      <img src="https://img.shields.io/github/issues/Peter-Palacios/HomeWise.svg?style=for-the-badge" alt="">
+  </a>
   <a href="https://github.com/Peter-Palacios/HomeWise/network/members">
-      <img src="https://img.shields.io/github/forks/Peter-Palacios/HomeWise.svg?style=for-the-badge" alt=""></a>
+      <img src="https://img.shields.io/github/forks/Peter-Palacios/HomeWise.svg?style=for-the-badge" alt="">
+  </a>
 
 
-HomeWise is a voice-driven home assistant that leverages AI technologies to deliver personalized, relevant information and guidance to users. HomeWise aims to curate data for each user and enhance daily living, such as personal schedules, family schedules, reminders, and preferred recipes using Retrieval-Augmented Generation (RAG) and intelligent assistance.
+HomeWise is a voice-driven home assistant that leverages AI technologies to deliver personalized, relevant information and guidance to users. HomeWise aims to curate data for each user and enhance daily living, such as personal schedules, family schedules, reminders, and preferred recipes. The application uses Voice Retrieval-Augmented Generation (RAG), Azure AI Search, and the GPT-4o Realtime API for intelligent audio assistance.
 
 ## Table of contents
 
 - [Features](#features)
 - [Screenshot](#screenshot)
+- [VoiceRAG Diagram](#voicerag-diagram)
 - [Links](#links)
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Realtime API](#realtime-api)
-
 - [Contributing](#contributing)
 - [License](#license)
 - [Authors](#authors)
 
 ## Features
 
-- **Personal Schedules**: Manage and access your personal schedule with ease.
-- **Family Schedules**: Keep track of family members' schedules and coordinate activities.
-- **Reminders**: Set and receive reminders for important tasks and events.
-- **Preferred Recipes**: Get personalized recipe recommendations based on your preferences.
+- **Voice Interface**: Interact with HomeWise using voice capture via the browser's microphone and it's processed via thhe Azure OpenAI GPT-4o Realtime API.
+- **VoiceRAG (Retrieval-Augmented Generation)**: Enhanced data retrieval via the Azure AI Search to generation for accurate and relevant responses.
+- **Audio Autput**: The response is retrieved from the GPT-4o Realtime API and played back to the user via the browser's speakers.
+- **Search Results**: The search results that were used to generate the response are displayed for the user to view and interact with.
+- **Personalized Recommendations**: Tailored suggestions based on user preferences and past interactions.
+- **Privacy and Security**: Robust measures to ensure user data is protected and private.
+- **Cross-Platform Compatibility**: Accessible on various devices and platforms for convenience.
+- **Real-Time Updates**: Continuously updated data and information for accurate and relevant responses.
 
 ## Screenshot
+
+![](https://github.com/Peter-Palacios/HomeWise/blob)
+
+## VoiceRAG Diagram
+
+![VoiceRAG Diagram](https://github.com/Peter-Palacios/HomeWise/blob/main/client/public/VoiceRAG.png)
 
 ## Links
 
@@ -43,9 +56,24 @@ HomeWise is a voice-driven home assistant that leverages AI technologies to deli
 
 ## Technologies
 
-- **Voice Recognition**: Seamless voice interaction for hands-free operation.
-- **AI Personalization**: Tailored information and guidance using advanced AI algorithms.
+- **Azure OpenAI GPT-4o Realtime API**: Real-time speech and audio processing for voice interaction. API documentation is available to provide detailed information on      endpoints, request/response formats, and usage examples. Refer to the [Realtime API](https://learn.microsoft.com/en-us/azure/ai-services/openai/realtime-audio-quickstart?pivots=ai-foundry-portal) for comprehensive API documentation.
+- **Azure AI Search**: Advanced search capabilities for data retrieval and generation.
+- **Azure Container Apps**: Containerized applications for deployment and scaling.
+- **Azure Blob Storage**: Cloud storage for data and file storage.
+- **Azure Monitor**: Monitoring and logging for application performance.
+- **Node.js**: JavaScript runtime for server-side development.
+- **Express.js**: Web application framework for Node.js.
+- **React.js**: JavaScript library for building user interfaces.
+- **MongoDB**: NoSQL database for data storage.
+- **Azure Developer CLI**: Command-line interface for Azure services.
+- **Tailwind CSS**: Front-end development languages for web design.
+- **HTML/CSS**: Markup and styling languages for web development.
+- **JavaScript**: Programming language for web development.
+- **Python 3.0**: Programming language for back-end development.
+- **Wisper**: A Python library for voice recognition and speech synthesis.
 - **RAG (Retrieval-Augmented Generation)**: Enhanced data retrieval and generation for accurate and relevant responses.
+- **VS Code Dev Containers**: Development containers for consistent development environments.
+
 
 ## Getting Started
 
@@ -82,11 +110,6 @@ Once the application is running, you can interact with HomeWise using voice comm
 - "Show me my family's schedule for the week."
 - "Suggest a recipe for dinner."
 
-## Realtime API
-
-- Azure OpenAI GPT-4o Realtime API for speech and audio is part of the GPT-4o model family that supports low-latency, "speech in, speech out" conversational interactions. The GPT-4o audio realtime API is designed to handle real-time, low-latency conversational interactions, making it a great fit for use cases involving live interactions between a user and a model, such as customer support agents, voice assistants, and real-time translators.
-
-- API documentation is available to provide detailed information on endpoints, request/response formats, and usage examples. Refer to the [Realtime API](https://learn.microsoft.com/en-us/azure/ai-services/openai/realtime-audio-quickstart?pivots=ai-foundry-portal) for comprehensive API documentation.
 
 ## Contributing
 
