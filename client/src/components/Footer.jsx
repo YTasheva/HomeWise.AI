@@ -104,7 +104,7 @@ export default function Footer() {
       <footer className="footer px-10 py-4 border-t bg-[#5D6C83] text-white border-base-300">
         <aside className="items-center grid-flow-col">
           <p>
-            Copyright &copy; 2024 All Rights Reserved. Site By HomeWise&reg;
+            Copyright &copy; 2024 All Rights Reserved. Site By Yuliya Tasheva&reg;
           </p>
         </aside>
         <nav className="md:place-self-center md:justify-self-end">
