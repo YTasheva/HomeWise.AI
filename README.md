@@ -1,20 +1,20 @@
-<h1 align="center">HomeWise Voice Assistant</h1>
+<h1 align="center">HomeWise.AI Voice Assistant</h1>
   <br />
-  <a href="https://github.com/Peter-Palacios">
+  <a href="https://github.com//YTasheva">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=for-the-badge" alt="">
   </a>
-  <a href="https://github.com/Peter-Palacios/HomeWise/graphs/contributors">
-      <img src="https://img.shields.io/github/contributors/Peter-Palacios/HomeWise.svg?style=for-the-badge" alt="">
+  <a href="https://github.com/YTasheva/HomeWise.AI/graphs/contributors">
+      <img src="https://img.shields.io/github/contributors/YTasheva/HomeWise.AI.svg?style=for-the-badge" alt="">
   </a>
-  <a href="https://github.com/Peter-Palacios/HomeWise/issues">
-      <img src="https://img.shields.io/github/issues/Peter-Palacios/HomeWise.svg?style=for-the-badge" alt="">
+  <a href="https://github.com/YTasheva/HomeWise.AI/issues">
+      <img src="https://img.shields.io/github/issues/YTasheva/HomeWise.AI.svg?style=for-the-badge" alt="">
   </a>
-  <a href="https://github.com/Peter-Palacios/HomeWise/network/members">
-      <img src="https://img.shields.io/github/forks/Peter-Palacios/HomeWise.svg?style=for-the-badge" alt="">
+  <a href="https://github.com/YTasheva/HomeWise.AI/network/members">
+      <img src="https://img.shields.io/github/forks/YTasheva/HomeWise.AI.svg?style=for-the-badge" alt="">
   </a>
 
 
-HomeWise is a voice-driven home assistant that leverages AI technologies to deliver personalized, relevant information and guidance to users. HomeWise aims to curate data for each user and enhance daily living, such as personal schedules, family schedules, reminders, and preferred recipes. The application uses Voice Retrieval-Augmented Generation (RAG), Azure AI Search, and the GPT-4o Realtime API for intelligent audio assistance.
+HomeWise.AI is a voice-driven home assistant that leverages AI technologies to deliver personalized, relevant information and guidance to users. HomeWise.AI aims to curate data for each user and enhance daily living, such as personal schedules, family schedules, reminders, and preferred recipes. The application uses Voice Retrieval-Augmented Generation (RAG), Azure AI Search, and the GPT-4o Realtime API for intelligent audio assistance.
 
 ## Table of contents
 
@@ -31,7 +31,7 @@ HomeWise is a voice-driven home assistant that leverages AI technologies to deli
 
 ## Features
 
-- **Voice Interface**: Interact with HomeWise using voice capture via the browser's microphone and it's processed via thhe Azure OpenAI GPT-4o Realtime API.
+- **Voice Interface**: Interact with HomeWise.AI using voice capture via the browser's microphone and it's processed via thhe Azure OpenAI GPT-4o Realtime API.
 - **VoiceRAG (Retrieval-Augmented Generation)**: Enhanced data retrieval via the Azure AI Search to generation for accurate and relevant responses.
 - **Audio Autput**: The response is retrieved from the GPT-4o Realtime API and played back to the user via the browser's speakers.
 - **Search Results**: The search results that were used to generate the response are displayed for the user to view and interact with.
@@ -42,17 +42,17 @@ HomeWise is a voice-driven home assistant that leverages AI technologies to deli
 
 ## Screenshot
 
-![](https://github.com/Peter-Palacios/HomeWise/blob)
+![](https://github.com/YTasheva/HomeWise.AI/blob)
 
 ## VoiceRAG Diagram
 
-![VoiceRAG Diagram](https://github.com/Peter-Palacios/HomeWise/blob/main/client/public/VoiceRAG.png)
+![VoiceRAG Diagram](https://github.com/YTasheva/HomeWise.AI/blob/main/client/public/VoiceRAG.png)
 
 ## Links
 
-- [Deployed Application](https://Peter-Palacios.github.io/HomeWise/)
-- [GitHub Repo](https://github.com/Peter-Palacios/HomeWise)
-- [HomeWise Presentation Slides](https://docs.google.com/presentation/d/.../edit?usp=sharing)
+- [Deployed Application](https://YTasheva.github.io/HomeWise/)
+- [GitHub Repo](https://github.com/YTasheva/HomeWise)
+- [HomeWise.AI Presentation Slides](https://docs.google.com/presentation/d/.../edit?usp=sharing)
 
 ## Technologies
 
@@ -77,15 +77,15 @@ HomeWise is a voice-driven home assistant that leverages AI technologies to deli
 
 ## Getting Started
 
-To get started with HomeWise, follow these steps:
+To get started with HomeWise.AI, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/HomeWise.git
+    git clone https://github.com/yourusername/HomeWise.AI.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd HomeWise
+    cd HomeWise.AI
     ```
 3. Install the required dependencies:
     ```bash
@@ -141,5 +141,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 > [HomeWise.com](#) &nbsp;&middot;&nbsp;
 > Email [support@homewise.com](#) &nbsp;&middot;&nbsp;
+> Copyright &copy; 2024 All Rights Reserved. Site By Yuliya Tasheva&reg;
 
 **Thank you for using and contributing to the HomeWise website! Your support helps us continually improve and deliver the best voice assistance experience.**
