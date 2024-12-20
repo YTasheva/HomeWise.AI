@@ -25,7 +25,7 @@ const Contact = () => {
     <>
       <Hero
         className="w-10"
-        backgroundImage="https://raw.githubusercontent.com/Peter-Palacios/HomeWise/main/client/public/contactus.jpeg"
+        backgroundImage="https://raw.githubusercontent.com/YTasheva/HomeWise.AI/main/client/public/contactus.jpeg"
       />
       <hr />
       <div className="text-center mt-3 h4 font-weight-bold">
