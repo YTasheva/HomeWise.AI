@@ -72,7 +72,7 @@ HomeWise.AI is a voice-driven home assistant that leverages AI technologies to d
 - **HTML/CSS**: Markup and styling languages for web development.
 - **JavaScript**: Programming language for web development.
 - **Python 3.0**: Programming language for back-end development.
-- **Wisper**: A Python library for voice recognition and speech synthesis.
+- **Whisper**: A Python library for voice recognition and speech synthesis.
 - **RAG (Retrieval-Augmented Generation)**: Enhanced data retrieval and generation for accurate and relevant responses.
 - **VS Code Dev Containers**: Development containers for consistent development environments.
 
