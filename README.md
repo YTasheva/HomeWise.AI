@@ -115,7 +115,7 @@ Once the application is running, you can interact with HomeWise using voice comm
 
 ## Contributing
 
-We welcome contributions to HomeWise! Please follow these steps to contribute:
+We welcome contributions to HomeWise.AI! Please follow these steps to contribute:
 
 1. Fork the repository.
 2. Create a new branch:
@@ -145,4 +145,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 > Email [support@homewise.ai.com](#) &nbsp;&middot;&nbsp;
 > Copyright &copy; 2024 All Rights Reserved. Site By Yuliya Tasheva&reg;
 
-**Thank you for using and contributing to the HomeWise website! Your support helps us continually improve and deliver the best voice assistance experience.**
+**Thank you for using and contributing to the HomeWise.AI website! Your support helps us continually improve and deliver the best voice assistance experience.**
