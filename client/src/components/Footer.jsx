@@ -33,9 +33,9 @@ export default function Footer() {
           <h6 className="footer-title">About Us</h6>
           <p className="text-yellow">--------</p>
           <p className="text-md text-gray-300 my-5">
-            HomeWise Assistant is a home’s best friend. While other smart home
-            control systems only know one trick, HomeWise combines all aspects
-            of smart homes into one friendly, well-trained responder. HomeWise
+            HomeWise.ai Assistant is a home’s best friend. While other smart home
+            control systems only know one trick, HomeWise.ai combines all aspects
+            of smart homes into one friendly, well-trained responder. HomeWise.ai
             is your companion, and always happy to see you come home.
           </p>
           <h5 className="text-md text-gray-300 flex items-center">
@@ -47,7 +47,7 @@ export default function Footer() {
           </h5>
         </nav>
         <nav>
-          <h6 className="footer-title">HomeWise in the News</h6>
+          <h6 className="footer-title">HomeWise.ai in the News</h6>
           <p className="text-yellow mb-5">--------</p>
           <p className="text-md text-gray-300 flex items-center">
             {" "}

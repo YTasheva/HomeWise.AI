@@ -14,7 +14,7 @@ export default function Slide() {
           <h1 className="text-6xl font-semibold mb-2">
             Simple. Private. Magical.
           </h1>
-          <h1 className="text-6xl font-bold mb-2 text-yellow">HomeWise App</h1>
+          <h1 className="text-6xl font-bold mb-2 text-yellow">HomeWise.AI App</h1>
           <p className="text-gray-700">
             The mission at HomeWise.ai is to solve the user experience,
             interoperability, and innovation challenges in the smart home. Enjoy
@@ -40,7 +40,7 @@ export default function Slide() {
           </div>
         </div>
         <div className="flex [writing-mode:vertical-lr] justify-center rotate-180">
-          #HOMEWISE.AI ASSISTANCE
+          #HOMEWISE.AI ASSISTANT
         </div>
       </div>
       <div className="flex justify-center items-center h-auto w-max bg-yellow p-2">

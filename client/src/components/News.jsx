@@ -32,7 +32,7 @@ export default function News() {
               35{" "}
             </h2>
             <p className="text-lg text-gray-500 group-hover:text-white">
-              HomeWise Reveals Top 10 Commands of 2024. An annual look at the
+              HomeWise.ai Reveals Top 10 Commands of 2024. An annual look at the
               most popular activations in custom homes. It is exciting to
               imagine what is to come and how voice interactions will advance in
               2025....

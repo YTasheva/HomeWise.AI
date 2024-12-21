@@ -16,8 +16,8 @@ export default function ChooseUs() {
       <div className="flex flex-col w-full">
         {[
           {
-            title: "Live smarter—HomeWise takes care of the little things in life so you can focus on what is important.",
-            content: "HomeWise helps you manage daily tasks effortlessly, allowing you to prioritize what truly matters."
+            title: "Live smarter—HomeWise.ai takes care of the little things in life so you can focus on what is important.",
+            content: "HomeWise.ai helps you manage daily tasks effortlessly, allowing you to prioritize what truly matters."
           },
           {
             title: "Delight Your Customers",

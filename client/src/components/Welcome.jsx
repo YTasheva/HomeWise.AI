@@ -12,16 +12,16 @@ export default function Welcome() {
       <div className="w-1/2 pl-40">
         <h1 className="text-5xl font-semibold mb-2">SPEAK NATURALLY</h1>
         <h1 className="text-5xl font-semibold mb-2">
-          HomeWise <span className="text-red">Understands Natural Speach</span>
+          HomeWise.ai <span className="text-red">Understands Natural Speach</span>
         </h1>
         <p className="text-xl text-gray-600 mt-5">
           Your personal Chef. HomeWise GPT now offers the assistance of an
           expert sous chef. Enjoy access to delicious recipes, culinary
-          instruction, and kitchen inspiration thanks to HomeWise! Proactive
+          instruction, and kitchen inspiration thanks to HomeWise.ai! Proactive
           recommendations developed by artificial intelligence.
         </p>
         <p className="text-xl text-gray-500 mt-5">
-          Interested in HomeWise? Reach out and we’ll connect you with a local
+          Interested in HomeWise.ai? Reach out and we’ll connect you with a local
           Home Technology Professional.
         </p>
         <a className="btn bg-[#F5F5F5] text-[#4A6E7E] font-bold mt-10 rounded-none">

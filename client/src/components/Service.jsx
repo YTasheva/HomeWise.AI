@@ -26,7 +26,7 @@ export default function Service() {
                 Pioneering a New Era of Intelligent Living
               </h2>
               <p className="text-xl text-gray-600">
-                HomeWise utilizes advanced AI to evolve and adapt over time.
+                HomeWise.ai utilizes advanced AI to evolve and adapt over time.
                 Enjoy efficient smart home accessibility or conveniently set the
                 mood with contextual voice commands.
               </p>
@@ -52,9 +52,9 @@ export default function Service() {
             <div className="card-body w-2/3">
               <h2 className="card-title font-bold">Seamless Sophistication</h2>
               <p className="text-xl text-gray-600">
-                We believe privacy is nonnegotiable in the home, and HomeWise
+                We believe privacy is nonnegotiable in the home, and HomeWise.ai
                 has been engineered to protect your data and earn your trust. We
-                are excited to share the vision and introduce you to HomeWise!
+                are excited to share the vision and introduce you to HomeWise.ai!
               </p>
               <div className="card-actions justify-start mt-auto">
                 <a>
@@ -70,7 +70,7 @@ export default function Service() {
 
       <p className="ml-14 mt-5 text-lg text-gray-600">
         {" "}
-        HomeWise is designed to empower every member of your family with
+        HomeWise.ai is designed to empower every member of your family with
         intuitive control and intelligent assistance.{" "}
         <span className="font-bold"> Find Your Solutions</span>
       </p>
