@@ -3,9 +3,7 @@
   <a href="https://github.com//YTasheva">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=for-the-badge" alt="">
   </a>
-  <a href="https://github.com/YTasheva/HomeWise.AI/graphs/contributors">
-      <img src="https://img.shields.io/github/contributors/YTasheva/HomeWise.AI.svg?style=for-the-badge" alt="">
-  </a>
+  
   <a href="https://github.com/YTasheva/HomeWise.AI/issues">
       <img src="https://img.shields.io/github/issues/YTasheva/HomeWise.AI.svg?style=for-the-badge" alt="">
   </a>
