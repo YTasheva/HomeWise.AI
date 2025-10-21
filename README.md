@@ -138,7 +138,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Authors
 
- [Yuliya Tasheva](https://github.com/YTasheva) - Front-End
+ [Yuliya Tasheva](https://github.com/YTasheva) 
 - For any questions, suggestions, or issues, please contact our team at 
 
 > [HomeWise.AI.com](#) &nbsp;&middot;&nbsp;
