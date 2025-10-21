@@ -1,13 +1,13 @@
 <h1 align="center">HomeWise Voice Assistant</h1>
   <br>
-  <a href="https://github.com/Peter-Palacios">
+  <a href="https:/YTasheva/github.com/">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=for-the-badge" alt=""></a>
-  <a href="https://github.com/Peter-Palacios/HomeWise/graphs/contributors">
-      <img src="https://img.shields.io/github/contributors/Peter-Palacios/HomeWise.svg?style=for-the-badge" alt=""></a>
-  <a href="https://github.com/Peter-Palacios/HomeWise/issues">
-      <img src="https://img.shields.io/github/issues/Peter-Palacios/HomeWise.svg?style=for-the-badge" alt=""></a>
-  <a href="https://github.com/Peter-Palacios/HomeWise/network/members">
-      <img src="https://img.shields.io/github/forks/Peter-Palacios/HomeWise.svg?style=for-the-badge" alt=""></a>
+  <a href="https://github.com//HomeWise/graphs/contributors">
+      <img src="https://img.shields.io/github/contributors//HomeWise.svg?style=for-the-badge" alt=""></a>
+  <a href="https://github.com/HomeWise/issues">
+      <img src="https://img.shields.io/github/issues//HomeWise.svg?style=for-the-badge" alt=""></a>
+  <a href="https://github.com//HomeWise/network/members">
+      <img src="https://img.shields.io/github/forks/HomeWise.svg?style=for-the-badge" alt=""></a>
 
 
 HomeWise is a voice-driven home assistant that leverages AI technologies to deliver personalized, relevant information and guidance to users. HomeWise aims to curate data for each user and enhance daily living, such as personal schedules, family schedules, reminders, and preferred recipes using Retrieval-Augmented Generation (RAG) and intelligent assistance.
@@ -37,8 +37,8 @@ HomeWise is a voice-driven home assistant that leverages AI technologies to deli
 
 ## Links
 
-- [Deployed Application](https://Peter-Palacios.github.io/HomeWise/)
-- [GitHub Repo](https://github.com/Peter-Palacios/HomeWise)
+- [Deployed Application](https://.github.io/HomeWise/)
+- [GitHub Repo](https://github.com/HomeWise)
 - [HomeWise Presentation Slides](https://docs.google.com/presentation/d/.../edit?usp=sharing)
 
 ## Technologies
@@ -111,9 +111,9 @@ We welcome contributions to HomeWise! Please follow these steps to contribute:
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Authors
+## Author
 
-- GitHub - [Peter Palacios](https://github.com/Peter-Palacios) | [Yuliya Tasheva](https://github.com/YTasheva) 
+- GitHub - [Yuliya Tasheva](https://github.com/YTasheva) 
 - For any questions, suggestions, or issues, please contact our team at 
 
 > [HomeWise.com](#) &nbsp;&middot;&nbsp;
